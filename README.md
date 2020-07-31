@@ -30,4 +30,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 
-![avatar](https://github.com/allenxieyusheng/boss/blob/master/splash/home.jpeg =364x750)
+![avatar](https://github.com/allenxieyusheng/boss/blob/master/splash/home.jpeg =364)
