@@ -29,5 +29,6 @@ yarn run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-<img src="https://github.com/allenxieyusheng/boss/blob/master/splash/home.jpeg)"  style="zoom: 33%;" />
+<img src="https://github.com/allenxieyusheng/boss/blob/master/splash/home.jpeg)"  style="zoom: 33%" />
+![](https://github.com/allenxieyusheng/boss/blob/master/splash/home.jpeg =90)
 
