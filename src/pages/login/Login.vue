@@ -48,6 +48,17 @@ export default {
     },
     methods: {
         login(){
+            if(!this.value){
+                alert("请输入电话")
+                return
+            }
+
+            const toast = this.$createToast({
+                    txt: '登录中...',
+                    mask: true
+            })
+            toast.show()
+
             console.log(this.$store) 
             //   this.$router.push('home')
             //同步触发 increment
@@ -60,6 +71,7 @@ export default {
                 password:"123456"
             }).then(res => {
                 console.log("abc",res);
+                toast.hide()
                 if(res.succeed){
                     //登录成功
                 //   this.$router.push('home')

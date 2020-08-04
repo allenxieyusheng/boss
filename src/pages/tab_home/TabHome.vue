@@ -21,9 +21,9 @@
     </div>
 
   <!-- list -->
-  <div class="list_wrapper" >
+  <div class="wrapper" >
     <ul style="margin-bottom:40px">
-      <li v-for="(item,index) in list" key="index" class="liet_item" @click="goDetail">
+      <li v-for="(item,index) in list" :key="index" class="liet_item" @click="goDetail">
           <div class="item_left">
               <h1>前端开发工程师</h1>
               <div>
@@ -81,16 +81,8 @@ export default {
   },
 
   created(){
-      // let wrapper = document.querySelector('.list_wrapper')
-      // let scroll = new BScroll('.list_wrapper', {
-      //   pullUpLoad: true
-      // })
-
-      // scroll.on('scroll', onScroll)
+    
   }
-
-
-
 }
 </script>
 
