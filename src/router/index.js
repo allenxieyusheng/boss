@@ -6,12 +6,16 @@ import Home from '../pages/home/Home'
 
 import Detail from '../pages/detail/detail'
 
+
+import Login from '../pages/login/Login'
+
 Vue.use(Router)
 
 const routes = [
    { path: '/', component: Welcome },
    { path: '/home' , component: Home},
    { path: '/detail' , component: Detail},
+   {path:"/login",component:Login},
  ]
 
 

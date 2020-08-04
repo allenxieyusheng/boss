@@ -12,7 +12,10 @@ import "./assets/icon/iconfont.css"
 
 Vue.use(Cube)
 
+import store from './vuex/store'
+
 new Vue({
   router,
+  store,
   render: h => h(App),
 }).$mount('#app')
